@@ -27,7 +27,7 @@ function hasClass(element, className) {
     return (' ' + element.className + ' ').indexOf(' ' + className + ' ') > -1;
 }
 
-function stopAllEvents(){
+function stopAllEvents(e) {
     e.stopPropagation()
     e.preventDefault()
 }
