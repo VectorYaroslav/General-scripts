@@ -23,11 +23,3 @@ function getCookie(name) {
 
     return decodeURI(dc.substring(begin + prefix.length, end));
 }
-function hasClass(element, className) {
-    return (' ' + element.className + ' ').indexOf(' ' + className + ' ') > -1;
-}
-
-function stopAllEvents(e) {
-    e.stopPropagation()
-    e.preventDefault()
-}
